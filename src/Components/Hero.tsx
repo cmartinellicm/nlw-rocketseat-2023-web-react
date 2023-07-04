@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Image from 'next/image'
 
-import nlwLogo from "../assets/nlw-spacetime-logo.svg";
-import Link from "next/link";
+import nlwLogo from '../assets/nlw-spacetime-logo.svg'
+import Link from 'next/link'
 
 export function Hero() {
   return (
@@ -13,8 +13,8 @@ export function Hero() {
           Sua cápsula do tempo
         </h1>
         <p className="text-lg leading-relaxed">
-          Colecione momentos marcantes da sua jornada e compartilhe (se
-          quiser) com o mundo!
+          Colecione momentos marcantes da sua jornada e compartilhe (se quiser)
+          com o mundo!
         </p>
       </div>
       <Link
